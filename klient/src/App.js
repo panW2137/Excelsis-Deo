@@ -6,19 +6,21 @@ import Basket from "./basket/basket.jsx";
 import LoginForm from "./login form/loginForm.jsx";
 import RegisterFrom from "./register form/registerForm.jsx";
 
+import { Routes, Route } from "react-router-dom"
+
 function App() {
   return(
     <>
-      <Baner />
-      <Navbar />
-      {/*<Shop />*/}
-      {/*<Product />*/}
-      {/*<Basket />*/}
-      {/*<LoginForm />*/}
-      <RegisterFrom />
-
+    <Baner />
+    <Navbar />
+    <Routes>
+      <Route path="/sklep" element={<Shop />} />
+      <Route path="/produkt" element={<Product />} />
+      <Route path="/koszyk" element={<Basket />}/>
+      <Route path="logowanie" element={<LoginForm />} />
+      <Route path="/rejestracja" element={<RegisterFrom />} />
+    </Routes>
     </>
   )
 }
-
 export default App;
