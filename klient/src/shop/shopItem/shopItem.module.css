@@ -1,0 +1,40 @@
+.shopItem{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 3px double rgb(173, 173, 173);
+    cursor: pointer;
+}
+.shopItem:hover{
+    background-color: rgb(244, 244, 244);
+}
+
+.shopItem img {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.shopItem div {
+    padding: 10px;
+}
+
+.shopItem h2 {
+    font-size: 25px;
+}
+
+.itemPrice {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(77, 171, 0);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.itemDescription {
+    margin-top: 10px;
+}
+
+.itemInfo {
+    font-weight: bold;
+}

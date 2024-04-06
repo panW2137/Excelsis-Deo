@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Baner from "./baner/baner.jsx";
+import Navbar from "./navbar/navbar.jsx";
+import Shop from "./shop/shop.jsx";
+import Product from "./product/product.jsx";
+import Basket from "./basket/basket.jsx";
+import LoginForm from "./login form/loginForm.jsx";
+import RegisterFrom from "./register form/registerForm.jsx";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <>
+      <Baner />
+      <Navbar />
+      {/*<Shop />*/}
+      {/*<Product />*/}
+      {/*<Basket />*/}
+      {/*<LoginForm />*/}
+      <RegisterFrom />
+
+    </>
+  )
 }
 
 export default App;

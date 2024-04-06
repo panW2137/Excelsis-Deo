@@ -1,0 +1,17 @@
+.trolley {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.trolley:hover {
+    color: rgb(207, 255, 61);
+}
+
+.trolley img {
+    width: 30px;
+}

@@ -1,0 +1,58 @@
+.productInfo {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upperPanel h2{
+    font-size: 50px;
+    color: rgb(198, 182, 6);
+    text-shadow: 1px 1px black;
+}
+
+.productPrice {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(77, 171, 0);
+}
+
+.lowerText {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.lowerPanel {
+    display: flex;
+    flex-direction: row;
+}
+
+.lowerPanel div {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.lowerPanel input {
+    margin-left: 5px;
+    width: 60px;
+    padding: 5px;
+    border: 3px double rgb(172, 172, 172);
+    font-size: 20px;
+}
+
+.lowerPanel button {
+    margin-left: 10px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(77, 171, 0);
+    color: white;
+}
+
+.lowerPanel button:hover{
+    background-color: rgb(67, 148, 0); 
+}

@@ -1,0 +1,53 @@
+.loginForm {
+    background-image: url("/src/temp files/papaj.png");
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background-color: rgba(112, 198, 255, 0.362);
+    border:2px solid gold;
+    border-bottom: none;
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 black;
+}
+
+.form input {
+    font-size: 20px;
+    margin-left: 5px;
+    border: none;
+}
+
+.loginButtons {
+    background-color: rgba(112, 198, 255, 0.362);
+    border:2px solid gold;
+    border-top: none;
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.loginButtons button {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    width: 40%;
+    cursor: pointer;
+}
